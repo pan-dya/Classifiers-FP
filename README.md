@@ -3,6 +3,8 @@ Class = L1CC Course = Human Computer Interaction Team = Classifiers
 
 Member : Alfin = 2502036842 Pandya = 2502022433
 
-Description:
+Description: An app to organize / sort items. This is the demo of the website
 
-Features:
+Features: Able to scan a barcode to track the items
+
+Demo link:

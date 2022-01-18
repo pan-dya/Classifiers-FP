@@ -64,6 +64,11 @@
     transition: color 150ms ease-in-out, background-color 150ms ease-in-out;
 }
 
+.btn-normal a {
+    text-decoration: none;
+    font-style: none;
+}
+
 .nav-action >:last-child {
     border: 1px solid #f53838;
     color: #f53838;
@@ -72,9 +77,15 @@
     transition: background-color 150ms ease-in-out;
 }
 
+.btn-border a {
+    text-decoration: none;
+    font-style: none;
+}
+
 .btn-border:hover {
-    color: white;
     background-color: #f53838;
+} .btn-border:hover a{
+    color: white;
 }
 
 .btn-normal:hover {
@@ -170,6 +181,11 @@
     font-size: 18px;
     letter-spacing: 0.2px;
     margin-bottom: 12px;
+}
+
+.feature-item img {
+    height: 200px;
+    width: 200px;
 }
 
 .pricing {

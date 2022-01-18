@@ -191,11 +191,6 @@ textarea{
     background-color: #b82020;
 }
 
-.field:focus{
-    border: 2px solid #f53838;
-    background-color: #fff;
-}
-
 .footer {
     height: 120px;
     display: flex;

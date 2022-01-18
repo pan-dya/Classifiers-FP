@@ -1,0 +1,271 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    line-height: 1.5;
+}
+
+.nav {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color:rgba(188, 107, 217, 0.11) ;
+}
+
+.nav-brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #f53838;
+    transition: color 250ms ease-in-out;
+}
+
+.nav-brand > a:hover {
+    color: #b82020;
+}
+
+.nav-link {
+    margin-left: 10%;
+    color: #373f41;
+}
+
+.nav-brand > a, 
+.nav-link > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-link > a {
+    margin: 0 16px;
+    transition: color 150ms ease-in-out;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+
+.nav-link > a:hover {
+    color: #f53838;
+}
+
+.nav-action > button >a {
+    color: inherit;
+}
+
+.nav-action > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 13px 45px ;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn-normal {
+    color: #0b0c0c;
+    border: 1px solid transparent;
+    transition: color 150ms ease-in-out, background-color 150ms ease-in-out;
+}
+
+.nav-action >:last-child {
+    border: 1px solid #f53838;
+    color: #f53838;
+    border-radius: 50px;
+    transition: color 150ms ease-in-out;
+    transition: background-color 150ms ease-in-out;
+}
+
+.btn-border:hover {
+    color: white;
+    background-color: #f53838;
+}
+
+.btn-normal > a, .btn-border > a {
+    font-style: none;
+    text-decoration: none;
+}
+
+.btn-normal:hover {
+    color:black;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.card-wrapper{
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+img{
+    width: 973.5px;
+    height: 684px;
+    display: block;
+}
+
+.img-display{
+    overflow: hidden;
+}
+
+.product-content{
+    padding: 2rem 1rem;
+}
+
+.product-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+
+.product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #12263a;
+}
+
+.product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.product-price span{
+    font-weight: 400;
+}
+
+.price span{
+    color: #256eff;
+}
+
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+
+.product-detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.product-detail ul li{
+    margin: 0;
+    list-style: none;
+    padding-left: 1.7rem;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.product-detail ul li span{
+    font-weight: 400;
+}
+
+.purchase-info{
+    margin: 1.5rem 0;
+}
+
+.purchase-info input,
+.purchase-info .btn{
+    border: 1.5px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.purchase-info input{
+    width: 60px;
+}
+
+.purchase-info .btn{
+    cursor: pointer;
+    color: white;
+    background-color: #f53838;
+}
+
+.purchase-info .btn:hover{
+    background-color: #b82020;
+}
+
+.footer {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    background-color:#373f41;
+}
+
+.footer-container{
+    padding-left: 29%;
+    margin-top: 1%;
+    width: 90%;
+    text-align: center;
+    max-width: 700px;
+    margin-bottom: 1%;
+}
+
+.footer-link {
+    color: white
+}
+ 
+.footer-link  a {
+    text-decoration: none;
+    height:46px;
+    display: inline-block;
+    width:46px;
+    padding:5px;
+    border-radius:40px;
+    margin:5px;
+    background: rgba(224, 222, 222, 0.5);
+    margin: 0 16px;
+    transition: color 150ms ease-in-out;
+}
+
+.footer-link img {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.footer-bottom{
+    background: rgb(12, 12, 12);
+    width:100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom a{
+    color:#fff;
+    font-size:14px;
+    margin-left:20px;
+    text-decoration:none;
+}
+.last-box{
+    margin-top:10px;
+}

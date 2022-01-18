@@ -1,5 +1,6 @@
 * {
     font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .nav {
@@ -56,6 +57,10 @@
     padding: 13px 45px ;
     font-weight: 500;
     font-size: 16px;
+}
+
+.nav-action > button >a {
+    color: inherit;
 }
 
 .btn-normal {
@@ -196,6 +201,15 @@
     align-items: center;
 }
 
+.pricing-container {
+    margin-top: 1%;
+    width: 90%;
+    text-align: center;
+    max-width: 700px;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
 .pricing-title {
     margin-bottom: 24px;
     font-size: 18px;
@@ -203,30 +217,47 @@
     color:  #373f41;
 }
 
-.pricing-container {
-    margin-top: 1%;
-    width: 90%;
-    text-align: center;
-    max-width: 700px;
-    margin-bottom: 1%;
-}
 
 .pricing-list {
-    display: flex;
-    align-items: flex-start;
-    padding: 0 100px;
+    align-items: flex-start
 }
 
 .pricing-item {
-    flex: 1;
     color: #373f41;
-    margin: 0 10px;
+    background-color: rgba(224, 222, 222, 0.5);
+    padding: 0 50px 30px 50px;
 }
 
 .pricing-item-title {
     font-size: 18px;
     letter-spacing: 0.2px;
     margin-bottom: 12px;
+}
+
+.pricing-details {
+    padding-left: 5px;
+    text-align: left;
+}
+
+.pricing-button {
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    background-color: #f53838;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: backgtound-color 250ms ease-in-out;
+}
+
+.pricing-button a{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+}
+
+.pricing-button:hover {
+    background-color: #b82020;
 }
 
 .footer {

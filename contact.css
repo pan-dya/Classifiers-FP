@@ -1,5 +1,6 @@
 * {
     font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .nav {
@@ -49,6 +50,10 @@
     color: #f53838;
 }
 
+.nav-action > button >a {
+    color: inherit;
+}
+
 .nav-action > button {
     border: none;
     background-color: transparent;
@@ -75,6 +80,11 @@
 .btn-border:hover {
     color: white;
     background-color: #f53838;
+}
+
+.btn-normal > a, .btn-border > a {
+    font-style: none;
+    text-decoration: none;
 }
 
 .btn-normal:hover {

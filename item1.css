@@ -7,6 +7,7 @@ body{
     line-height: 1.5;
 }
 
+/* same navbar as style.css */
 .nav {
     height: 40px;
     display: flex;
@@ -98,11 +99,13 @@ body{
     border: 1px solid black;
 }
 
+/* wrapper to contain the whole item on sale */
 .card-wrapper{
     max-width: 1100px;
     margin: 100px auto;
 }
 
+/* image styling */
 img{
     width: 973.5px;
     height: 684px;
@@ -113,6 +116,7 @@ img{
     overflow: hidden;
 }
 
+/* contain the product title, price, desc */
 .product-content{
     padding: 2rem 1rem;
 }
@@ -126,6 +130,7 @@ img{
     margin: 1rem 0;
 }
 
+/* create a line below the title */
 .product-title::after{
     content: "";
     position: absolute;
@@ -146,10 +151,12 @@ img{
     font-weight: 400;
 }
 
+/* change the color for the price text */
 .price span{
     color: #256eff;
 }
 
+/* product detail */
 .product-detail h2{
     text-transform: capitalize;
     color: #12263a;
@@ -176,10 +183,12 @@ img{
     opacity: 0.9;
 }
 
+/* to make the text after ':' look different */
 .product-detail ul li span{
     font-weight: 400;
 }
 
+/* add to cart and how many item bought */
 .purchase-info{
     margin: 1.5rem 0;
 }
@@ -209,6 +218,7 @@ img{
     background-color: #b82020;
 }
 
+/* same footer as style.css */
 .footer {
     height: 120px;
     display: flex;

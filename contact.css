@@ -2,7 +2,7 @@
     font-family: 'Mulish', sans-serif;
     scroll-behavior: smooth;
 }
-
+/* everything for navbar and footer is the same as the one in style.css */
 .nav {
     height: 40px;
     display: flex;
@@ -94,6 +94,7 @@
     border: 1px solid black;
 }
 
+/* main container  */
 .container{
 	position: relative;
 	width: 100%;
@@ -105,6 +106,7 @@
     padding-bottom: 70px;
 }
 
+/* create the separation left and right */
 .container:after{
 	content: '';
 	position: absolute;
@@ -112,11 +114,10 @@
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("img/bg.jpg") no-repeat center;
-	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
 }
+
 .contact-box{
 	max-width: 850px;
 	display: grid;
@@ -134,6 +135,7 @@
 	height: 100%;
 }
 
+/* right side formating */
 .right{
 	padding: 25px 40px;
 }
@@ -191,6 +193,7 @@ textarea{
     background-color: #b82020;
 }
 
+/* same as style.css */
 .footer {
     height: 120px;
     display: flex;
